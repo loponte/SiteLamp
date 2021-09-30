@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SiteLamp</title>
+        <meta name="description" content="Site de estudo por Loponte">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="hero">
+            <nav>
+                <img src="images/menu.png" class="menu-img">
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="">Último</a></li>
+                    <li><a href="">Moderno</a></li>
+                    <li><a href="">Conteporâneo</a></li>
+                    <li><a href="">Acessível</a></li>
+                </ul>
+                <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+            </nav>
+
+            <div class="lamp-container">
+                <img src="images/lamp.png" class="lamp">
+                <img src="images/light.png" class="light" id="light">
+            </div>
+
+            <div class="text-container">
+                <h1>Mais recente<br>em iluminação</h1>
+                <p>esta é a última lâmpada da nossa empresa. estamos fazendo uma enorme coleção de lâmpadas modernas em todas as categorias, de uso doméstico a escritório.</p>
+                <a href="">Veja todas as Coleções</a>
+                <div class="control">
+                    <p>04</p>
+                    <div class="line"><span></span></div>
+                    <p>05</p>
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            var btn = document.getElementById("btn");
+            var light = document.getElementById("light")
+
+            function toggleBtn(){
+                btn.classList.toggle("active");
+                light.classList.toggle("on");
+            }
+        </script>
+
+    </body>
+</html>
