@@ -21,4 +21,4 @@ O Site foi pensado para ter a melhor experiência do usuário, fazendo com que o
 ﹒[Beacons](https://beacons.ai/loponte/)
 
 ### Extra:
-Este site foi desenvolvido conjunto com o [Easy Tutorials](https://www.youtube.com/channel/UCkjoHfkLEy7ZT4bA2myJ8xA)).
+Este site foi desenvolvido conjunto com o [Easy Tutorials](https://www.youtube.com/channel/UCkjoHfkLEy7ZT4bA2myJ8xA).
